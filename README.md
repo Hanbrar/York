@@ -54,3 +54,9 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000), upload 4 images, write a prompt, hit **Generate Ad**.
+
+---
+
+<div align="center">
+  <sub>© 2025 Hanryck Singh Brar. All rights reserved.</sub>
+</div>
