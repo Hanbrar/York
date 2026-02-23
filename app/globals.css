@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #111111;
+  --font-playfair: "Playfair Display", serif;
+  --font-inter: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--foreground);
+  background-color: #ffffff;
+  background-image: radial-gradient(#d1d5db 1px, transparent 1px);
+  background-size: 24px 24px;
+  font-family: var(--font-inter), sans-serif;
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .font-display {
+    font-family: var(--font-playfair), serif;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .upload-card {
+    @apply border-2 border-dashed border-zinc-200 rounded-2xl flex flex-col items-center justify-center gap-3 p-6 cursor-pointer transition-all duration-200 bg-white/70 backdrop-blur-sm hover:border-zinc-400 hover:bg-white/90;
+  }
+
+  .upload-card.has-file {
+    @apply border-zinc-800 bg-zinc-50;
+  }
+}
