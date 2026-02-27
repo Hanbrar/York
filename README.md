@@ -9,9 +9,7 @@
 
 ## Demo
 
-https://github.com/user-attachments/assets/REPLACE_WITH_YOUR_VIDEO_ID
-
-> To embed your demo: drag & drop the MP4 into any GitHub Issue comment box, copy the URL it generates, and replace the line above with it.
+<video src="https://github.com/Hanbrar/York/raw/main/York.mp4" controls width="100%"></video>
 
 ---
 
